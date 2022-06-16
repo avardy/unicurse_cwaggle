@@ -1,0 +1,53 @@
+fakeRobots     0
+simTimeStep    1.0
+robotRadius    18
+plowLength     38
+finHalfWidth        0
+plowAngleDeg   180
+puckRadius     5
+numRobots      25
+numPucks       100
+numPuckTypes   1
+gui            1
+renderSteps     30
+maxTimeSteps   80000
+writeDataSkip  1000
+dataFilenameBase   ../data
+numTrials		1
+controllerSkip  0
+arenaConfig     4k_one_wall_div_4
+scalarFieldFilename     ../../images/4k_one_wall_goal_L_div_4/labyrinth_1000.png
+redTravelTimeFilename     ../../images/4k_one_wall_goal_L_div_4/travel_time_0.png
+greenTravelTimeFilename     ../../images/4k_one_wall_goal_L_div_4/travel_time_1.png
+captureScreenshots    1
+screenshotFilenameBase   ../screenshots/
+maxForwardSpeed           0.25
+maxAngularSpeed           0.005
+angleThreshold            0.5
+puckSensorFOV             360
+puckSensorDeltaAngle      20
+pucksAsRobots             0
+searchSpinDistMin         10
+searchSpinDistMax         100
+searchStraightDistMin         10
+searchStraightDistMax         500
+minTurnSteps               60
+sensorConfig                nearline_3_rgb
+paramSweep      0
+arenaSweep      0
+manual          1
+updateQTable      0
+episodeTimeSteps   0
+batchSize      1
+initialQ       0
+alpha          0.05
+gamma          0.99
+epsilon        0.05
+penaltyDotRadius    0
+resetEval      0.94
+saveQFile     1000 qtable/q.txt
+saveQFilePartial     1000 qtable/q_partial.txt
+loadQFile     0 qtable/q.txt
+loadQFilePartial     0 qtable/q_manual_partial.txt
+hashFunction   GridArc3
+actions        3 1 0 -1

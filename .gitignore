@@ -1,0 +1,17 @@
+*.o
+*.pyc
+*.exe
+*.DS_Store
+*.png
+*.pdf
+*.dat
+
+# Latex-related
+*.cls
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+
+*.avi
+*.mp4
