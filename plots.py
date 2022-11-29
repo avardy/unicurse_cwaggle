@@ -20,12 +20,17 @@ ARENA_LONG_NAMES = { '':''
                    , "normal":"Fancy Normal"
                    }
 
-EXPERIMENT_NAMES = ['numRobots_5'
+EXPERIMENT_NAMES = [#'bed_0'
+                    #'bed_100'
+                    #, 'bed_200'
+                   #]
+                    'numRobots_5'
                     , 'numRobots_10'
                     , 'numRobots_25'
                     , 'numRobots_50'
                     , 'numRobots_75'
                     , 'numRobots_100'
+                    , 'numRobots_125'
                     ]
 
 EXPERIMENT_LONG_NAMES = { '':''
@@ -35,6 +40,7 @@ EXPERIMENT_LONG_NAMES = { '':''
                         , 'numRobots_50':'50'
                         , 'numRobots_75':'75'
                         , 'numRobots_100':'100'
+                        , 'numRobots_125':'125'
                         , "sensors_5_plus_1":"Arc: 5 + 1"
                         , "sensorConfig_arc_3":"Arc: 3 + 1"
                         , "sensorConfig_farline_3":"Far Line: 3 + 1"
@@ -56,9 +62,9 @@ if LIVE:
     X_LABEL = "Time (secs)"
 else:
     X_LABEL = "Time (steps)"
-SAVE_FIG = True
+SAVE_FIG = False
 START_TRIAL = 0
-LAST_TRIAL = 9
+LAST_TRIAL = 29
 PLOT_TRIALS = False
 PLOT_MEAN = True
 COLLAPSE_EXPERIMENTS = True

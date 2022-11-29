@@ -31,8 +31,8 @@ class GUI {
     bool m_debug = false;
     bool m_sensors = false;
     bool m_drawLines = true, m_drawCircles = true, m_zoom = false;
-//    size_t m_controlsHeight = 250;
-size_t m_controlsHeight = 0;
+    size_t m_controlsHeight = 250;
+//size_t m_controlsHeight = 0;
     size_t m_windowWidth;
     size_t m_windowHeight;
     size_t m_windowScale;

@@ -38,7 +38,7 @@ void paramSweep(Config config)
     using choiceType = size_t;
     string choiceName = "numRobots";
     choiceType *choiceVariable = &config.numRobots;
-    vector<choiceType> choices{ 100 };
+    vector<choiceType> choices{ 125, 100, 75, 50, 25, 10, 5 };
 
     string filenameBase = config.dataFilenameBase;
     vector<pair<choiceType, double>> sweepResults;
